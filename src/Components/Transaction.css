@@ -1,0 +1,108 @@
+/* General table styling */
+.maintable {
+    width: 100%px;
+    border-collapse: collapse;
+    margin: 20px 100px;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  /* Table header styling */
+  .maintable th, .maintable td {
+    padding: 13px 120px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Table header background and text styling */
+  .maintable th {
+    background-color: #f4f4f4;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Table row hover effect */
+ 
+  
+  .maintable tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Optional: add some rounded corners to the table */
+  .maintable {
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  /* Optional: add some styling to the table container */
+  .table-container {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the headings */
+  h1 {
+    font-size: 23px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  .maintable{
+    position: absolute;
+    top:-20px;
+    left:-43px;
+  }
+  
+
+  .scrollmaintransaction{
+    position: absolute;
+   
+    height: 500px;
+    width: 1000px;
+    top:200px;
+    left:230px;
+    
+    overflow-y: scroll;
+  }
+
+
+  .rulertransaction{
+    position: absolute;
+    width: 1540px;
+    height: 1px;
+    top:100px;
+    left:00px;
+   
+    
+    background-color: black;
+
+  }
+
+  .transactionhistory{
+    position: absolute;
+    top:40px;
+    left:50px;
+    opacity: 80%;
+
+
+  }
+
+  .backbuttontransaction{
+    position: fixed;
+  left:1350px;
+  top:25px;
+  padding: 20;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(1,179,135);
+  color: white;
+  cursor: pointer;
+    
+  }
+
+  .backbuttontransaction:hover{
+    opacity: 80%;
+  }
+  
+  

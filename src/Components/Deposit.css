@@ -1,0 +1,361 @@
+
+
+.depositmain{
+    background-color: rgb(228, 228, 228);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left:-100px;
+    width:1700px;
+    
+}
+
+
+
+.backbuttondeposit{
+    position: absolute;
+    width: 110px;
+  height: 50px;
+  border-radius: 7px;
+  border-color: gray;
+  background-color: rgb(1,179,135);
+  border: 0px;
+  color: white;
+  font-size: 17px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
+  left:1300px;
+  top:50px;
+}
+
+.depositfunds{
+    position: absolute;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    top:20px;
+    left:750px;
+
+
+}
+
+.greenline1{
+    width:210px;
+    height:6px;
+    background-color: #10A499;
+    position: absolute;
+    
+    top:55px;
+    left:750px;
+}
+
+.container{
+    position: absolute;
+    width: 480px;
+    height: 580px;
+    background-color: white;
+    left:610px;
+    top:80px;
+    box-shadow: 5px 5px 10px -8px black;
+    transition: transform 2s ease;
+}
+
+.container.move{
+    transform: translateY(700px);
+}
+
+.paymentdetails{
+    position: absolute;
+    left:175px;
+    top:20px;
+    font-size: 18px;
+    font-weight: bold;
+    
+
+
+}
+.greenline2{
+    width:190px;
+    height:4px;
+    background-color: #000000;
+    position: absolute;
+    left:170px;
+    width: 150px;
+    top:47px;
+    
+}
+
+.visacard{
+    position: absolute;
+    width: 75px;
+    top:70px;
+    left:65px;
+}
+
+.mastercard{
+    position: absolute;
+    width: 87px;
+    top:75px;
+    left:155px;
+}
+
+.paypal{
+    position: absolute;
+    width: 87px;
+    top:75px;
+    left:245px;
+}
+
+.rupay{
+    position: absolute;
+    width: 87px;
+    top:75px;
+    left:335px;
+}
+
+.enteramount{
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+    font-size: 16px;
+    left:70px;
+    top:160px;
+}
+
+.amountdepinp{
+    position: absolute;
+    width: 110px;
+    border-color: black;
+    left:70px;
+    border: 1px solid black;
+    top:190px;
+    font-size: 15px;
+    height: 35px;
+    bottom:307px;
+    border-radius: 3px;
+    padding-left: 10px;
+    opacity: 80%;
+}
+
+.cardnumber{
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+    font-size: 16px;
+    left:70px;
+    top:240px;
+}
+
+.cardnumbervalue{
+    position: absolute;
+    width: 340px;
+    border-color: black;
+    left:70px;
+    border: 1px solid black;
+    top:270px;
+    font-size: 15px;
+    height: 35px;
+    bottom:307px;
+    border-radius: 2px;
+    padding-left: 10px;
+    opacity: 80%;
+}
+
+.cardnumbererror{
+    position: absolute;
+    color: red;
+    width: 100%;
+    font-size: 14px;
+    top:248px;
+    left:290px;
+}
+
+.namecard{
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+    font-size: 16px;
+    left:70px;
+    top:320px;
+}
+
+.namecardvalue{
+    position: absolute;
+    width: 340px;
+    border-color: black;
+    left:70px;
+    border: 1px solid black;
+    top:350px;
+    font-size: 15px;
+    height: 35px;
+    bottom:307px;
+    border-radius: 2px;
+    padding-left: 10px;
+    opacity: 80%;
+}
+
+.expirydate{
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+    font-size: 16px;
+    left:70px;
+    top:400px;
+}
+
+.expiryvalue1{
+    position: absolute;
+    width: 40px;
+    border-color: black;
+    left:70px;
+    border: 1px solid black;
+    top:430px;
+    font-size: 15px;
+    height: 35px;
+    bottom:307px;
+    border-radius: 2px;
+    padding-left: 10px;
+    opacity: 80%;
+}
+
+.slashexpiry{
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+    font-size: 16px;
+    left:70px;
+    top:435px;
+    font-size: 20px;
+    left: 125px;
+}
+
+.expiryvalue2{
+    position: absolute;
+    width: 80px;
+    border-color: black;
+    left:150px;
+    border: 1px solid black;
+    top:430px;
+    font-size: 15px;
+    height: 35px;
+    bottom:307px;
+    border-radius: 2px;
+    padding-left: 10px;
+    opacity: 80%;
+    padding-left: 22px;
+}
+
+.securitycode{
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+    font-size: 16px;
+    left:300px;
+    top:400px;
+}
+
+.securitycodevalue{
+    position: absolute;
+    width: 110px;
+    border-color: black;
+    left:300px;
+    border: 1px solid black;
+    top:430px;
+    font-size: 15px;
+    height: 35px;
+    bottom:307px;
+    border-radius: 2px;
+    padding-left: 10px;
+    opacity: 80%;
+    padding-left: 40px;
+}
+
+.paynowbutton{
+    position: absolute;
+    width: 340px;
+    height: 40px;
+    left:70px;
+    top:500px;
+    border: none;
+    background-color: black;
+    color: white;
+    transition: background-color 0.5s ease;
+    border-radius: 3px;
+}
+
+.paynowbutton:hover{
+    background-color: rgb(1,179,135);
+}
+
+/* Add this CSS to your Deposit.css file */
+
+.mainvideo2{
+    z-index: 2005;
+    position: absolute;
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.modalbox{
+    position: fixed ;
+    left:5000px;
+    
+}
+
+
+
+.modalbody{
+    position: fixed;
+    
+    left:1230px;
+    box-shadow: 5px 5px 10px -8px black;
+    bottom: 50px;
+    position: fixed;
+    background-color: white;
+    width: 270px;
+    height: 80px;
+    border-radius: 10px;
+    border: none;
+    
+}
+
+
+.closebutton{
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    
+    bottom: 100px;
+    right:35px;
+    border-top-right-radius: 10px;
+}
+  
+
+.closesignblack{
+    position: fixed;
+    width: 10px;
+    bottom:110px;
+    right: 45px;
+
+}
+
+
+
+.errorpng{
+    position: fixed;
+    width: 25px;
+    bottom:100px;
+    right: 275px;
+}
+
+.errortext{
+    position: fixed;
+    bottom:102px;
+    right: 195px;
+    font-weight: bold;
+    color: rgb(123, 0, 0);
+    
+}
+
+.nametext{
+    position: fixed;
+    bottom:75px;
+    right: 100px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+    color: rgb(123, 0, 0);
+}
+
+

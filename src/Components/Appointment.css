@@ -1,0 +1,557 @@
+
+
+
+
+
+
+.mainboxfirst{
+    position: absolute;
+    background-color: red;
+    width: 1540px;
+    height: 743px;
+    left:00px;
+
+}
+
+.mainboxsecond{
+    position: absolute;
+    background-color: rgb(0, 255, 0);
+    width: 1540px;
+    height: 743px;
+    left:00px;
+}
+
+.mainboxthird{
+    position: absolute;
+    background-color: rgb(0, 21, 255);
+    width: 1540px;
+    height: 743px;
+    left:00px;
+}
+
+.mainboxfourth{
+    position: absolute;
+    background-color: rgb(229, 255, 0);
+    width: 1540px;
+    height: 550px;
+    left:00px;
+}
+
+
+.forwardbutton{
+    position: absolute;
+    background-color: black;
+    height: 100px;
+    width: 70;
+    left:1470px;
+    top:310px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    z-index: 100;
+}
+.backwardbutton{
+    position: absolute;
+    background-color: black;
+    height: 100px;
+    width: 70;
+    left:0px;
+    top:310px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    z-index: 100;
+}
+
+.forwardicon{
+    position: absolute;
+    top:15px;
+    filter: invert();
+}
+
+.backwardicon{
+    position: absolute;
+    top:15px;
+    filter: invert();
+    rotate: 180deg;
+}
+
+.sumitphoto{
+    position: absolute;
+    width: 1300px;
+    z-index: 10;
+    top:12px;
+    left: 500px;
+}
+
+.spashnew{
+    position: absolute;
+    width: 1300px;
+    top:12px;
+    left: 500px;
+}
+
+.cloud1_1{
+    position: absolute;
+    width: 3000px;
+    top:-680px;
+    left:250px;
+}
+
+.cloud1_2{
+    position: absolute;
+    width: 3000px;
+    top:-650px;
+    left:020px;
+   
+}
+
+.cloud2_1{
+    position: absolute;
+    width: 3000px;
+    top:-680px;
+    left:450px;
+}
+
+.cloud2_2{
+    position: absolute;
+    width: 3000px;
+    top:-650px;
+    left:220px;
+   
+}
+
+.cloud3_1{
+    position: absolute;
+    width: 3000px;
+    top:-680px;
+    left:650px;
+}
+
+.cloud3_2{
+    position: absolute;
+    width: 3000px;
+    top:-650px;
+    left:420px;
+   
+}
+
+.mainboxsecond {
+    background: linear-gradient(to right, #001c6c, #015eea);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  
+  .mainboxsecond img {
+    border-radius: 50%;
+  }
+
+  .mainboxfirst {
+    background: linear-gradient(to right, #001c6c, #015eea);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+  }
+
+  .mainboxthird {
+    background: linear-gradient(to right, #001c6c, #015eea);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  
+
+  
+
+
+
+  
+  
+  .mainboxfirst img {
+    border-radius: 50%;
+  }
+
+.underlinegreen{
+    position: absolute;
+    width: 527px;
+    height: 25px;
+    background-color: #00e0a9;
+    top:130px;
+    left: 150px;
+}
+  
+
+.bookappointmenttext{
+    position: absolute;
+    color: white;
+    font-size: 45px;
+    font-family: 'Berlin Sans FB Demo', sans-serif !important;
+    left: 150px;
+    top:100px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.sumitkesarwanitext{
+    position: absolute;
+    color: white;
+    font-size: 38px;
+    font-family: 'Eras bold itc', sans-serif !important;
+    left: 150px;
+    top:200px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+}
+
+.professiontext{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    font-family: 'Eras bold itc', sans-serif !important;
+    left: 150px;
+    top:265px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.agetext{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    font-family: 'Eras bold itc', sans-serif !important;
+    left: 150px;
+    top:305px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.descriptiontext{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    font-family: 'Eras bold itc', sans-serif !important;
+    left: 150px;
+    top:345px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.bookbuttonsumit{
+    position: absolute;
+    padding: 15px;
+    top:535px;
+    left:150px;
+    background-color: #01B387;
+    color: white;
+    font-size: 18px;
+    font-family: 'Eras bold itc', sans-serif !important;
+    cursor: pointer;
+}
+
+.bookbuttonsumit:hover{
+    background-color: white;
+    color: #01B387;
+}
+
+.forwardicon:hover{
+    
+    cursor: pointer;
+}
+
+.backwardicon:hover{
+    cursor: pointer;
+}
+
+.button1first{
+    position: absolute;
+    left: 1300px;
+    padding: 13px;
+    z-index: 200;
+    border-radius: 7px;
+    font-size: 17px;
+    border: none;
+    outline: 3px solid #ffffff; /* Inner border */
+    outline-offset: -3px;
+    background-color: transparent;
+    color: white;
+}
+
+.button1first:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.button2first{
+    position: absolute;
+    left: 1350px;
+    padding: 13px;
+    z-index: 200;
+    border-radius: 7px;
+    font-size: 17px;
+    border: none;
+    outline: 3px solid #ffffff; /* Inner border */
+    outline-offset: -3px;
+    background-color: transparent;
+    color: white;
+}
+
+.button2first:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.button3first{
+    position: absolute;
+    left: 1400px;
+    padding: 13px;
+    z-index: 200;
+    border-radius: 7px;
+    font-size: 17px;
+    border: none;
+    outline: 3px solid #ffffff; /* Inner border */
+    outline-offset: -3px;
+    background-color: transparent;
+    color: white;
+
+}
+
+.button3first:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.button1firstex{
+    position: absolute;
+    left: 1300px;
+    padding: 13px;
+    z-index: 200;
+    border-radius: 7px;
+    font-size: 17px;
+    border: none;
+    outline: 3px solid #ffffff; /* Inner border */
+    outline-offset: -3px;
+    
+}
+
+.button2firstex{
+    position: absolute;
+    left: 1350px;
+    padding: 13px;
+    z-index: 200;
+    border-radius: 7px;
+    font-size: 17px;
+    border: none;
+    outline: 3px solid #ffffff; /* Inner border */
+    outline-offset: -3px;
+    
+}
+
+.button3firstex{
+    position: absolute;
+    left: 1400px;
+    padding: 13px;
+    z-index: 200;
+    border-radius: 7px;
+    font-size: 17px;
+    border: none;
+    outline: 3px solid #ffffff; /* Inner border */
+    outline-offset: -3px;
+    
+}
+
+
+.firstformmain{
+    position: absolute;
+    width: 1520px;
+    height: 650px;
+    background-color: rgb(219, 219, 219);
+    top:743px;
+    left: 0px;
+    
+}
+
+.firstform{
+    position: absolute;
+    background-color: white;
+    width: 1420px;
+    height: 600px;
+    left:50px;
+    
+
+}
+
+.requestappoitmenttext{
+    position: absolute;
+    left: 500px;
+    font-size: 30px;
+    font-family: 'Eras bold itc', sans-serif !important;
+    top:30px;
+    color: #000000;
+}
+
+.namefirst{
+    position: absolute;
+    top:100px;
+    font-size: 20px;
+    font-weight: bolder;
+    left:100px;
+    opacity: 70%;
+}
+
+.surnamefirst{
+    position: absolute;
+    top:100px;
+    font-size: 20px;
+    font-weight: bolder;
+    left:530px;
+    opacity: 70%;
+}
+
+.phonenumfirst{
+    position: absolute;
+    top:100px;
+    font-size: 20px;
+    font-weight: bolder;
+    left:955;
+    opacity: 70%;
+}
+
+
+.firstnameinputfirst {
+    position: absolute;
+    border: 1px solid #000; 
+    padding: 10px; 
+    width: 350px; 
+    height: 45px; 
+    top:140px;
+    left:95px;
+    
+}
+
+.surnamenameinputfirst{
+    position: absolute;
+    border: 1px solid #000; 
+    padding: 10px; 
+    width: 350px; 
+    height: 45px; 
+    top:140px;
+    left:525px;
+}
+
+.phonenumberinputfirst{
+    position: absolute;
+    border: 1px solid #000; 
+    padding: 10px; 
+    width: 350px; 
+    height: 45px; 
+    top:140px;
+    left:950px;
+}
+
+.appointmentinputfirst{
+    position: absolute;
+    border: 1px solid #000; 
+    padding: 10px; 
+    width: 350px; 
+    height: 45px; 
+    top:270px;
+    left:525px;
+}
+
+.phonenumtextfirst{
+    position: absolute;
+    top:230px;
+    font-size: 20px;
+    font-weight: bolder;
+    left:100px;
+    opacity: 70%;
+}
+
+.emailtextfirst{
+    position: absolute;
+    top:230px;
+    font-size: 20px;
+    font-weight: bolder;
+    left:100px;
+    opacity: 70%;
+}
+
+.emailinputfirst{
+    position: absolute;
+    border: 1px solid #000; 
+    padding: 10px; 
+    width: 350px; 
+    height: 45px; 
+    top:270px;
+    left:95px;
+}
+
+.appointmentdatetextfirst{
+    position: absolute;
+    top:230px;
+    font-size: 20px;
+    font-weight: bolder;
+    left:955px;
+    opacity: 70%;
+}
+
+.appointmentdatefirst{
+    position: absolute;
+    top:230px;
+    font-size: 20px;
+    font-weight: bolder;
+    left:530px;
+    opacity: 70%;
+}
+
+.appointmenttimeinputfirst{
+    position: absolute;
+    border: 1px solid #000; 
+    padding: 10px; 
+    width: 350px; 
+    height: 45px; 
+    top:270px;
+    left:950px;
+}
+
+.confirmbuttonfirst{
+    position: absolute;
+    padding: 15px;
+    top:535px;
+    left:150px;
+    background-color: #00379F;
+    color: white;
+    font-size: 18px;
+    font-family: 'Eras bold itc', sans-serif !important;
+    cursor: pointer;
+    border: none;
+    top:380px;
+    left: 580px;
+    
+    
+}
+
+.confirmbuttonfirst:hover{
+    background-color: white;
+    color: #00379F;
+    border: 3px solid;
+}
+.errmessagefirst{
+    position: absolute;
+    color: red;
+    top:450px;
+    font-size: 18px;
+    left:100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

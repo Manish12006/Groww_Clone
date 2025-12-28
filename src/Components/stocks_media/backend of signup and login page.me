@@ -1,0 +1,170 @@
+1- install mongodb version-6.0.5 (current install)
+
+2- set up mongodb using this YOUTUBE channel- https://www.youtube.com/watch?v=gB6WLkSrtJk
+
+3- npm install express (goto terminal and install it)
+
+4- npm install mongoose (goto terminal and install it)
+
+5- npm install bcrypt (goto terminal and install it)
+
+6- npm install ejs (goto terminal and install it)
+
+7-check package json create successfully
+
+8- create SRC folder inside 2 file create index.js and config.js
+
+9- Inside write the this code index.js file:
+const express=require('express');
+const pasth=require('path');
+const bcrypt=require('bcrypt');
+
+(STEP 22: const collection=require("./config");)
+
+const app=express();
+
+(STEP 25://convert data into json format
+app.use(express.json());
+app.use(express.urlencoded({extended:false});)
+
+//USE EJS AS THE VIEW ENGINE
+app.set('view engine','ejs');
+//USE STATIC FILE
+step 17-app.use("express.static("public"));
+step 12-app.get("/",(req,res)=>{
+    res.render("login");
+})
+step 13-app.get("/signup",(req,res)=>{
+    res.render("signup");
+})
+
+STEP 23://Register user
+app.post("/signup",async(req,res)=>{
+
+	const data ={
+		name:req.body.username,
+		password:req.body.password
+	}
+
+STEP 24:const userdata=await collection.insertMany(data);
+		console.log(userdata);
+
+(DELETE STEP 24 AFTER STEP 26)
+
+STEP 26://check if the useralready exists in the databse
+const existingUser=await.collection.findOne({name:data.name});
+if(existingUser){
+	res.send("User already exist.Please choose a different username.");
+}else{
+
+(STEP 27://hash the password using bcrypt
+const saltRounds=10; //number of salt round for bcrypt
+const hashPassword=await bcrypt.hash(data.password,saltRounds);
+
+data.password = hashPassword; //Replace the hash password with original password)
+
+	const userdata=await collection.insertMany(data);
+		console.log(userdata);
+}
+
+		
+});
+
+STEP 28://login user
+app.post("/login",async(req,res)=>{
+try{
+	const check= await collection.findOne({name"req.body.username});
+ if(!check){
+	res.send("user name cannot found");
+ }
+//compare the hash password from the database with the plain text
+const isPasswordMatch=await bcrypt.compare(req.body.password,check.password);
+if(isPasswordMatch){
+	res.render("home");
+ }else{
+	res.send("worng password");
+ }
+
+}catch{
+	res.send("worng details");
+ }
+});
+
+const port=5000;
+app.listen(port,()=>{
+    console.log('Server running on port:${port}');
+}) 
+
+10- create folder - views inside 3 file create home.ejs,login.ejs,signup.ejs (check as per requirement)
+
+11- create public folder inside style.css add(check as per requirement)
+
+14- in login.ejs file have code also html and css
+
+15-nodemon src/index.js=>press enter (display on terminal server port running process or not if check that)
+
+16-go to chrome serach it localhost 5000 if check that html and css work or not
+
+18- open config.js file (DATABASE CONNECTION FIRST OPEN SIMPLY MONGODB APP)
+
+19- config.js:
+ const mongoose=require("mongoose");
+ const connect=mongoose.connect("mongodb://localhost:27017/DATABASE NAME (LOGIN AND SIGNUP 2 SEPARTED DATABASE)")
+
+ //CHECK DATABASE CONNECTED OR NOT
+ connect.then(()=>{
+    console.log("datbase connected successfully"); // on terminal
+ })
+ .catch(()=>{
+    console.log("datbase cannot be connected");
+ })
+
+STEP 20://create a schema
+const LoginSchema=new.mongoosa.Schema({
+	name:{
+			type:String,
+			required:true
+		},
+	password:{
+				type:String,
+			required:true
+		}
+});
+STEP 21://collection part
+const collection = new mongoose.model("users",LoginSchema);
+module.exports=collection;
+
+STEP 29- home.ejs:
+<html lang="en">
+<head>
+	<meta cahrset="UTF-8">
+	<meta name=viewport" content="width=device-width,initial-scale=1.0">
+	<title>Home Page</title>
+</head>
+<body>
+	<h1 style="text-align:center;">Welcome to Home page</h1>
+</body>
+</html>
+
+
+(NOTE 1:  READ EVERY STEP AND UNDERSTAND THE CODE)
+(NOTE 2: AT EVERY STEP RUN THE PROGRAM AND SEE THE CHANGES)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

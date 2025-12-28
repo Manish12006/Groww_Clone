@@ -1,0 +1,451 @@
+/* DashboardGroww.css */
+
+.dashboardmain {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1200px;
+}
+
+
+
+
+.tableblock{
+    position: absolute;
+
+}
+.table {
+    width: 850px;
+    position: absolute;
+    left:80px;
+    top:50px;
+    border-collapse: collapse;
+    
+    
+}
+
+
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f4f4f4;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.holdings{
+    position: absolute;
+    opacity: 80%;
+    font-size: 25px;
+    top:20px;
+    left:70px;
+
+}
+
+.ruler{
+    position: absolute;
+    width: 1600px;
+    left:0px;
+    top:70px;
+}
+
+
+
+.lowopacity1{
+    font-size: 17px;
+}
+
+
+
+.totalinvestment{
+    position: absolute;
+    top:110px;  
+    opacity: 80%;
+    font-size: 17px;
+    left:300px;
+
+}
+
+.currentvalue{
+    position: absolute;
+    top:110px;
+    opacity: 80%;
+    font-size: 17px;
+    left:700px;
+}
+
+.totalpandl{
+    position: absolute;
+    top:110px;
+    opacity: 80%;
+    font-size: 17px;
+    left:1100px;
+}
+
+.videoplayback{
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+}
+
+
+/* Dashboard.css */
+.table {
+    position: absolute;
+    left:250px;
+    width: 1000px;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+  }
+  
+  .tablehead {
+    background-color: #f4f4f4;/* DashboardGroww.css */
+
+.dashboardmain {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1200px;
+}
+
+.scrollmain{
+    position: absolute;
+    background-color: rgb(199, 199, 199);
+    height: 500px;
+    width: 1000px;
+    top:200px;
+    left:240px;
+    overflow: hidden;
+    overflow-y: scroll;
+    
+    
+}
+
+
+
+.tableblock{
+    position: absolute;
+
+}
+.table {
+    width: 850px;
+    position: absolute;
+    left:80px;
+    top:50px;
+    border-collapse: collapse;
+    
+    
+}
+
+
+
+
+
+.holdings{
+    position: absolute;
+    opacity: 80%;
+    font-size: 25px;
+    top:30px;
+
+}
+
+.ruler{
+    position: absolute;
+    width: 1600px;
+    left:0px;
+    top:70px;
+}
+
+
+
+.lowopacity1{
+    font-size: 17px;
+}
+
+
+
+.totalinvestment{
+    position: absolute;
+    top:100px;
+    opacity: 80%;
+    font-size: 17px;
+    left:300px;
+
+}
+
+.currentvalue{
+    position: absolute;
+    top:110px;
+    opacity: 80%;
+    font-size: 17px;
+    left:700px;
+}
+
+.totalpandl{
+    position: absolute;
+    top:110px;
+    opacity: 80%;
+    font-size: 17px;
+    left:1100px;
+}
+
+.videoplayback{
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+}
+
+
+/* Dashboard.css */
+.table {
+    position: absolute;
+    left:250px;
+    width: 1000px;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+    
+    
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .tablebody td {
+    text-align: center;
+  }
+
+  .scrollmain{
+    position: absolute;
+    
+    height: 500px;
+    width: 1060px;
+    top:180px;
+    left:240px;
+    overflow: hidden;
+    overflow-y: scroll;
+    border-radius: 10px;
+    
+}
+
+
+  .table{
+    position: absolute;
+    left:45px;
+    top:-20px;
+    table-layout: fixed;
+    
+  }
+
+  .theadtable{
+    position: fixed;
+    left: 285px;
+    top:170px;
+    padding: 10px 15px;
+    width: 1015px;
+    border-radius: 5px;
+    background-color: rgb(236, 236, 236);
+    justify-items: center;
+    height: 40px;
+  }
+
+  .instru{
+    position: fixed;
+    left:320px;
+
+  }
+  .quantity{
+    position: fixed;
+    left:500px;
+  }
+  .avg{
+    position: fixed;
+    left:665px;
+  }
+  .curr{
+    position: fixed;
+    left:830px;
+  }
+  .ltp{
+    position: fixed;
+    left:1020px;
+  }
+  .pl{
+    position: fixed;
+    left:1190px;
+  }
+
+  .thead{
+    position: fixed;
+  }
+
+  .thead th{
+    opacity: 70%;
+  }
+
+  
+  
+  
+.scrollmain{
+  left: 125px;
+}
+  
+.finaltable{
+  position: absolute;
+  top:30px;
+}
+
+.table td{
+  height: 50px;
+}
+
+
+
+.table tr:hover{
+  background-color: rgb(255, 255, 255);
+}
+
+.table tr:hover td {
+  background-color: rgb(242, 242, 242); 
+}
+
+.table th, .table td {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  transition: background-color 0.15s linear;
+}
+
+.table tr:hover {
+  background-color: rgb(189, 189, 189);
+}
+
+.totalinvestment{
+  position: absolute;
+  top:90px;
+  opacity: 80%;
+  font-size: 17px;
+  left:280px;
+  opacity: 60%;
+}
+
+.currentvalue{
+  position: absolute;
+  top:90px;
+  opacity: 80%;
+  font-size: 17px;
+  left:700px;
+  opacity: 60%;
+}
+
+.pandl{
+  position: absolute;
+  top:90px;
+  opacity: 80%;
+  font-size: 17px;
+  left:1100px;
+  opacity: 60%;
+}
+
+.totalinvestmentvalue{
+  position: absolute;
+  top:120px;
+  opacity: 80%;
+  font-size: 17px;
+  left:295px;
+  font-size: 20px;
+  
+}
+.currentvaluevalue{
+  position: absolute;
+  top:120px;
+  opacity: 80%;
+  font-size: 17px;
+  left:714px;
+  font-size: 20px;
+}
+
+.pandlvalue{
+  position: absolute;
+  top:120px;
+  opacity: 80%;
+  font-size: 17px;
+  left:1105px;
+  font-size: 20px;
+}
+ 
+
+.sellbutton{
+  color: red;
+  cursor: pointer;
+  background-color: red;
+}
+
+.downloadbutton{
+  position: fixed;
+  left:1190px;
+  top:15px;
+  padding: 15;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(1,179,135);
+  color: white;
+  cursor: pointer;
+}
+
+.backbutton{
+  position: fixed;
+  left:1350px;
+  top:15px;
+  padding: 15;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(1,179,135);
+  color: white;
+  cursor: pointer;
+}
+
+.downloadbutton:hover{
+  opacity: 80%;
+}
+.backbutton:hover{
+  opacity: 80%;
+}
+  
+
+.line{
+  position: fixed;
+  opacity: 60%;
+  width: 1600px;
+  top:70px;
+  left:5px;
+}
+
+
+
+  
+  
